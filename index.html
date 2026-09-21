@@ -1,1 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Chirag Jain - Data Analyst Portfolio">
+
+    <title>Chirag Jain | Data Analyst</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+            line-height: 1.6;
+        }
+
+        /* NAVBAR */
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+
+            background: #161b22;
+
+            padding: 18px 8%;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            border-bottom: 1px solid #30363d;
+        }
+
+        nav h2 {
+            color: #58a6ff;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+        }
+
+        nav a {
+            color: #e6edf3;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #58a6ff;
+        }
+
+        /* HERO */
+
+        .hero {
+            min-height: 90vh;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            padding: 80px 10%;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #58a6ff;
+        }
+
+        .hero h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            color: #8b949e;
+            font-size: 18px;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+
+            padding: 12px 24px;
+
+            margin-right: 10px;
+
+            border-radius: 8px;
+
+            text-decoration: none;
+
+            font-weight: bold;
+
+            transition: 0.3s;
+        }
+
+        .primary {
+            background: #238636;
+            color: white;
+        }
+
+        .primary:hover {
+            background: #2ea043;
+        }
+
+        .secondary {
+            border: 1px solid #30363d;
+            color: #e6edf3;
+        }
+
+        .secondary:hover {
+            border-color: #58a6ff;
+            color: #58a6ff;
+        }
+
+        /* SECTIONS */
+
+        section {
+            padding: 80px 10%;
+        }
+
+        section h2 {
+            font-size: 36px;
+            margin-bottom: 35px;
+        }
+
+        .section-line {
+            width: 60px;
+            height: 4px;
+            background: #58a6ff;
+            margin-bottom: 30px;
+        }
+
+        /* ABOUT */
+
+        .about {
+            max-width: 800px;
+            color: #8b949e;
+            font-size: 18px;
+        }
+
+        /* SKILLS */
+
+        .skills {
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(180px, 1fr));
+
+            gap: 20px;
+        }
+
+        .skill {
+            background: #161b22;
+
+            border: 1px solid #30363d;
+
+            padding: 25px;
+
+            border-radius: 10px;
+
+            text-align: center;
+
+            transition: 0.3s;
+        }
+
+        .skill:hover {
+            transform: translateY(-5px);
+            border-color: #58a6ff;
+        }
+
+        .skill h3 {
+            margin-bottom: 10px;
+            color: #58a6ff;
+        }
+
+        /* PROJECTS */
+
+        .projects {
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(280px, 1fr));
+
+            gap: 25px;
+        }
+
+        .project {
+            background: #161b22;
+
+            border: 1px solid #30363d;
+
+            border-radius: 12px;
+
+            padding: 30px;
+
+            transition: 0.3s;
+        }
+
+        .project:hover {
+            transform: translateY(-7px);
+            border-color: #58a6ff;
+        }
+
+        .project h3 {
+            color: #58a6ff;
+            margin-bottom: 15px;
+        }
+
+        .project p {
+            color: #8b949e;
+            margin-bottom: 20px;
+        }
+
+        .project a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* CONTACT */
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            color: #8b949e;
+            margin-bottom: 25px;
+        }
+
+        /* FOOTER */
+
+        footer {
+            text-align: center;
+
+            padding: 30px;
+
+            border-top: 1px solid #30363d;
+
+            color: #8b949e;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 700px) {
+
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav ul {
+                gap: 12px;
+                font-size: 14px;
+            }
+
+            .hero h1 {
+                font-size: 42px;
+            }
+
+            .hero h2 {
+                font-size: 22px;
+            }
+
+            section {
+                padding: 60px 7%;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <h2>Chirag Jain</h2>
+
+        <ul>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <h1>
+            Hi, I'm <span>Chirag Jain</span> 👋
+        </h1>
+
+        <h2>
+            Data Analyst
+        </h2>
+
+        <p>
+            I transform raw data into meaningful insights
+            using Python, SQL, Power BI and Excel.
+        </p>
+
+        <div class="buttons">
+
+            <a
+                href="#projects"
+                class="btn primary">
+                View My Projects
+            </a>
+
+            <a
+                href="https://github.com/"
+                class="btn secondary">
+                GitHub
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about">
+
+        <h2>🚀 About Me</h2>
+
+        <div class="section-line"></div>
+
+        <p class="about">
+
+            I'm a passionate Data Analyst who enjoys working
+            with data to discover patterns, identify trends
+            and generate actionable business insights.
+
+            <br><br>
+
+            My focus areas include data cleaning,
+            exploratory data analysis, SQL analysis,
+            dashboard development and business intelligence.
+
+        </p>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section id="skills">
+
+        <h2>🛠️ Technical Skills</h2>
+
+        <div class="section-line"></div>
+
+        <div class="skills">
+
+            <div class="skill">
+                <h3>🐍 Python</h3>
+                <p>Pandas · NumPy · Matplotlib</p>
+            </div>
+
+            <div class="skill">
+                <h3>🗄️ SQL</h3>
+                <p>Data Analysis · Queries · Joins</p>
+            </div>
+
+            <div class="skill">
+                <h3>📊 Power BI</h3>
+                <p>Dashboards · DAX · Visualization</p>
+            </div>
+
+            <div class="skill">
+                <h3>📗 Excel</h3>
+                <p>Pivot Tables · Formulas · Analysis</p>
+            </div>
+
+            <div class="skill">
+                <h3>📈 Data Visualization</h3>
+                <p>Charts · Dashboards · Insights</p>
+            </div>
+
+            <div class="skill">
+                <h3>🧹 Data Cleaning</h3>
+                <p>Transformation · Preparation</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+
+        <h2>📂 Featured Projects</h2>
+
+        <div class="section-line"></div>
+
+        <div class="projects">
+
+            <div class="project">
+
+                <h3>📊 Sales Data Analysis</h3>
+
+                <p>
+                    Analyzed sales data to identify revenue
+                    trends, top products and regional performance.
+                </p>
+
+                <p>
+                    <strong>Tools:</strong>
+                    Python · Pandas · SQL
+                </p>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>👥 Customer Churn Analysis</h3>
+
+                <p>
+                    Analyzed customer behavior and identified
+                    patterns associated with customer churn.
+                </p>
+
+                <p>
+                    <strong>Tools:</strong>
+                    Python · SQL · Power BI
+                </p>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>🛒 E-Commerce Dashboard</h3>
+
+                <p>
+                    Built an interactive dashboard to analyze
+                    revenue, profit, customers and products.
+                </p>
+
+                <p>
+                    <strong>Tools:</strong>
+                    Power BI · SQL · Excel
+                </p>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+
+        <h2>📫 Let's Connect</h2>
+
+        <div class="section-line"
+             style="margin-left:auto;margin-right:auto;">
+        </div>
+
+        <p>
+            I'm open to data analytics opportunities,
+            projects and collaborations.
+        </p>
+
+        <a
+            href="mailto:YOUR_EMAIL@gmail.com"
+            class="btn primary">
+            Contact Me 
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Chirag Jain · Data Analyst Portfolio
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
