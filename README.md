@@ -1,66 +1,100 @@
-👋 Hi, I'm Chirag Jain
+<div align="center">
 
-📊 Business Analyst | Data Analyst
-🎓 BBA | MBA – Business Analytics
-📍 Bengaluru, India
+# 👋 Hi, I'm Chirag Jain
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### 📊 Business Analyst | Data Analyst | Business Analytics
 
-🚀 About Me
+**Turning data into insights, dashboards, and better business decisions.**
 
-Business Analytics professional passionate about transforming
-data into meaningful business insights.
+<p>
+  <a href="https://github.com/contactchiragj26-Analyst">
+    <img src="https://img.shields.io/badge/GitHub-contactchiragj26--Analyst-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://contactchiragj26-analyst.github.io/Chirag-s-Portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  </a>
+</p>
 
-I work with data analysis, visualization, dashboards and
-business intelligence to solve real-world business problems.
+</div>
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-🛠️ Skills
+## 🚀 About Me
 
-📊 Data Analytics
-• Excel
-• SQL
-• Power BI
-• Python
-• Pandas
-• NumPy
+I'm a **Business Analytics professional and Data Analyst** passionate about transforming raw data into meaningful business insights.
 
-📈 Business Intelligence
-• Power BI
-• Data Visualization
-• Dashboard Development
-• KPI Analysis
-• Business Reporting
+I enjoy working with data to:
 
-🧹 Analytics
-• Data Cleaning
-• Exploratory Data Analysis
-• Data Interpretation
-• Business Insights
+- 📊 Discover trends and patterns
+- 🧹 Clean and transform datasets
+- 🔍 Perform exploratory data analysis
+- 📈 Build interactive dashboards
+- 💡 Generate actionable business insights
+- 📋 Support data-driven decision making
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+My goal is to combine **business knowledge + analytical skills + technology** to solve real-world problems.
 
-📂 Featured Projects
+---
 
-📊 Sales Analytics Dashboard
-📈 Business Performance Analysis
-👥 Customer Analysis
-💰 Financial / Revenue Analysis
-📦 E-Commerce Data Analysis
+## 🛠️ Skills & Technologies
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### 📊 Data Analytics
 
-📈 GitHub Statistics
+<p>
+<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+</p>
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### 📈 Business Intelligence
 
-🌐 Portfolio
+<p>
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
+</p>
 
-🔗 My Portfolio
+### 📉 Data Visualization
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Power BI Dashboards
+- Excel Dashboards
+- KPI Reporting
+- Business Reports
+- Data Storytelling
+- Interactive Visualizations
 
-🤝 Connect With Me
+---
 
-LinkedIn | GitHub | Portfolio
+## 📂 Featured Projects
+
+| Project | Description | Tools |
+|---|---|---|
+| 📊 **Sales Analytics** | Analyze sales performance, revenue and KPIs | Power BI • Excel • SQL |
+| 👥 **Customer Analysis** | Explore customer behavior and segmentation | Python • Pandas • SQL |
+| 🏢 **HR Analytics** | Analyze employee trends and workforce KPIs | Power BI • Excel |
+| 🛒 **E-Commerce Analysis** | Explore orders, customers and revenue trends | Python • SQL |
+| 💰 **Business Performance Dashboard** | Interactive dashboard for business decision-making | Power BI |
+
+> 🚀 More projects and detailed case studies are available in my portfolio.
+
+---
+
+## 📊 What I Work With
+
+```text
+Business Analytics
+       ↓
+Data Collection
+       ↓
+Data Cleaning
+       ↓
+Exploratory Data Analysis
+       ↓
+Data Visualization
+       ↓
+Dashboard Development
+       ↓
+Business Insights
+       ↓
+Data-Driven Decisions
