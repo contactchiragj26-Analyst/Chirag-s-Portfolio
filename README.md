@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Chirag
+# 👋 Hi, I'm Chirag Jain 
 
 ### 📊 Data Analyst | Python | SQL | Power BI | Excel
 
