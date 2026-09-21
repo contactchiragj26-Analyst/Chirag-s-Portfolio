@@ -99,31 +99,4 @@ Business Insights
        ↓
 Data-Driven Decisions
 
-📈 GitHub Statistics
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=contactchiragj26-Analyst&show_icons=true&theme=tokyonight&hide_border=true" height="180"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=contactchiragj26-Analyst&layout=compact&theme=tokyonight&hide_border=true" height="180"/> </div>
 
-🔥 Contribution Streak
-<div align="center"> <img src="https://streak-stats.demolab.com?user=contactchiragj26-Analyst&theme=tokyonight&hide_border=true" /> </div>
-
-🎯 Currently Focused On
-📊 Advanced Data Analytics
-🗄️ SQL & Database Analysis
-🐍 Python for Data Analysis
-📈 Power BI Dashboard Development
-💼 Business Intelligence
-📚 Building real-world analytics projects
-
-🌐 Portfolio
-<div align="center">
-🚀 Explore My Portfolio
-<a href="https://contactchiragj26-analyst.github.io/Chirag-s-Portfolio/"> <img src="https://img.shields.io/badge/Visit%20My%20Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white"/> </a> </div>
-
-🤝 Let's Connect
-<div align="center"> <a href="https://github.com/contactchiragj26-Analyst"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> </a> <a href="https://contactchiragj26-analyst.github.io/Chirag-s-Portfolio/"> <img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white"/> </a> </div>
-
-<div align="center">
-💡 "Turning Data Into Insights, Insights Into Decisions."
-
-⭐ Thanks for visiting my profile!
-
-</div> ```
