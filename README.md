@@ -78,7 +78,16 @@ My goal is to combine **business knowledge + analytical skills + technology** to
 
 > 🚀 More projects and detailed case studies are available in my portfolio.
 
----
+
+## 🎓 Certifications
+
+## 🎓 Certifications
+
+| Certification | Simplilearn | Certificate |
+|---|---|---|
+| Data Analytics Certificate | Google | [View Certificate](https://github.com/contactchiragj26-Analyst/certifications/blob/main/Main%20cdrtificate.pdf) |
+| Python Certificate | — | [View Certificate](https://github.com/contactchiragj26-Analyst/certifications/blob/main/Python.pdf)) |
+| Tableau Certificate | Microsoft | [View Certificate](https://github.com/contactchiragj26-Analyst/certifications/blob/main/Tableau.pdf) |
 
 ## 📊 What I Work With
 
