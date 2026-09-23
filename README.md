@@ -17,6 +17,19 @@
 
 </div>
 
+![Data Analyst Banner](./banner.svg)
+
+```mermaid
+flowchart LR
+    A[Data Collection] --> B[Data Cleaning]
+    B --> C[Exploratory Analysis]
+    C --> D[Dashboard KPIs]
+    D --> E[Business Insights]
+    E --> F[Decision Making]
+    classDef analyst fill:#8b5cf6,color:#fff,stroke:#d946ef,stroke-width:2px,stroke-dasharray: 5 5;
+    class A,B,C,D,E,F analyst;
+```
+
 ---
 
 ## 🚀 About Me
@@ -109,3 +122,13 @@ Business Insights
        ↓
 Data-Driven Decisions
 ```
+
+---
+
+## ✅ Why this profile stands out
+
+- Data-focused storytelling
+- Business and technical balance
+- KPI and dashboard-driven thinking
+- Portfolio-ready presentation style
+- Clear alignment with real business problems
