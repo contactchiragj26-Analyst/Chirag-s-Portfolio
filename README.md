@@ -1,111 +1,96 @@
-<div align="center">
+# Chirag Jain | Data Analyst Portfolio
 
-# 👋 Hi, I'm Chirag Jain
+A responsive, static portfolio website for showcasing data analytics skills, selected projects, and contact details.
 
-### 📊 Business Analyst | Data Analyst | Business Analytics
+## Features
 
-**Turning data into insights, dashboards, and better business decisions.**
+- Professional data analyst portfolio layout
+- Responsive desktop and mobile design
+- About, toolkit, selected work, and contact sections
+- Email contact link
+- WhatsApp contact link generated from the phone number
+- LinkedIn and GitHub profile links
+- Built-in **Edit profile** panel
+- Profile details stored in browser `localStorage`
+- No backend or build process required
 
-<p>
-  <a href="https://github.com/contactchiragj26-Analyst">
-    <img src="https://img.shields.io/badge/GitHub-contactchiragj26--Analyst-181717?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://contactchiragj26-analyst.github.io/Chirag-s-Portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" />
-  </a>
-</p>
-
-</div>
-
----
-
-## 🚀 About Me
-
-I'm a **Business Analytics professional and Data Analyst** passionate about transforming raw data into meaningful business insights.
-
-I enjoy working with data to:
-
-- 📊 Discover trends and patterns
-- 🧹 Clean and transform datasets
-- 🔍 Perform exploratory data analysis
-- 📈 Build interactive dashboards
-- 💡 Generate actionable business insights
-- 📋 Support data-driven decision making
-
-My goal is to combine **business knowledge + analytical skills + technology** to solve real-world problems.
-
----
-
-## 🛠️ Skills & Technologies
-
-### 📊 Data Analytics
-
-<p>
-<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-</p>
-
-### 📈 Business Intelligence
-
-<p>
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
-</p>
-
-### 📉 Data Visualization
-
-- Power BI Dashboards
-- Excel Dashboards
-- KPI Reporting
-- Business Reports
-- Data Storytelling
-- Interactive Visualizations
-
----
-
-## 📂 Featured Projects
-
-| Project | Description | Tools |
-|---|---|---|
-| 📊 **Sales Analytics** | Analyze sales performance, revenue and KPIs | Power BI • Excel • SQL |
-| 👥 **Customer Analysis** | Explore customer behavior and segmentation | Python • Pandas • SQL |
-| 🏢 **HR Analytics** | Analyze employee trends and workforce KPIs | Power BI • Excel |
-| 🛒 **E-Commerce Analysis** | Explore orders, customers and revenue trends | Python • SQL |
-| 💰 **Business Performance Dashboard** | Interactive dashboard for business decision-making | Power BI |
-
-> 🚀 More projects and detailed case studies are available in my portfolio.
-
-
-## 🎓 Certifications
-
-## 🎓 Certifications
-
-| Certification | Simplilearn | Certificate |
-|---|---|---|
-| Data Analytics Certificate | Google | [View Certificate](https://github.com/contactchiragj26-Analyst/certifications/blob/main/Main%20cdrtificate.pdf) |
-| Python Certificate | — | [View Certificate](https://github.com/contactchiragj26-Analyst/certifications/blob/main/Python.pdf)) |
-| Tableau Certificate | Microsoft | [View Certificate](https://github.com/contactchiragj26-Analyst/certifications/blob/main/Tableau.pdf) |
-
-## 📊 What I Work With
+## Project Files
 
 ```text
-Business Analytics
-       ↓
-Data Collection
-       ↓
-Data Cleaning
-       ↓
-Exploratory Data Analysis
-       ↓
-Data Visualization
-       ↓
-Dashboard Development
-       ↓
-Business Insights
-       ↓
-Data-Driven Decisions
+.
+├── index.html   # Portfolio content, contact links, and editor logic
+├── style.css    # Responsive layout, colors, typography, and animations
+└── README.md    # Project documentation
+```
 
+## Run Locally
 
+Because this is a static website, it can be opened directly:
+
+1. Open `index.html` in a browser.
+2. Click **Edit profile** in the top navigation.
+3. Enter your name, email address, phone number, and LinkedIn URL.
+4. Click **Save details**.
+
+You can also use the VS Code Live Server extension for a local preview.
+
+## Editing Contact Details Permanently
+
+The editor saves changes in the current browser only. To update the default values for everyone who visits the deployed website, edit the `defaults` object near the bottom of `index.html`:
+
+```js
+const defaults = {
+    name: 'Chirag Jain',
+    email: 'your-email@example.com',
+    phone: '+91 99999 99999',
+    whatsapp: '919999999999',
+    linkedin: 'https://www.linkedin.com/in/your-linkedin-username'
+};
+```
+
+Use the WhatsApp number in international format without `+`, spaces, or brackets. For example:
+
+```text
++91 98765 43210  ->  919876543210
+```
+
+You can also update the GitHub URL, project descriptions, skills, and headings directly in `index.html`.
+
+## Deploy with GitHub Pages
+
+1. Create or open a GitHub repository.
+2. Upload `index.html`, `style.css`, and `README.md` to the repository root.
+3. Open **Settings → Pages**.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Select the `main` branch and the `/ (root)` folder.
+6. Click **Save**.
+
+GitHub will provide a public URL similar to:
+
+```text
+https://your-github-username.github.io/repository-name/
+```
+
+### Important
+
+This project currently sits inside a nested `contactchiragj26-Analyst-main` folder. When uploading to GitHub Pages, upload the files from the inner project folder so that `index.html` is at the repository root.
+
+## Customization
+
+- Replace the GitHub profile URL in `index.html`.
+- Replace the LinkedIn URL and contact details.
+- Update the profile image URL if needed.
+- Edit project cards and tool labels to reflect your real work.
+- Change colors and spacing through the CSS variables at the top of `style.css`.
+
+## Technologies
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Google Fonts
+- Browser `localStorage`
+
+## License
+
+This portfolio is intended for personal use and customization.
