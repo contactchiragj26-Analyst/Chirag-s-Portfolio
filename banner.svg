@@ -1,0 +1,76 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="50%" stop-color="#120d1a"/>
+      <stop offset="100%" stop-color="#0b0b12"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="chart1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d946ef"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="chart2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="chart3" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f0abfc"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <g opacity="0.28">
+    <circle cx="90" cy="70" r="170" fill="#8b5cf6"/>
+    <circle cx="1115" cy="245" r="185" fill="#d946ef"/>
+  </g>
+
+  <rect x="65" y="60" width="360" height="200" rx="22" fill="url(#glass)" stroke="rgba(255,255,255,0.18)"/>
+
+  <g filter="url(#glow)">
+    <rect x="105" y="180" width="34" height="46" rx="8" fill="url(#chart1)">
+      <animate attributeName="height" values="46;92;46" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="155" y="150" width="34" height="76" rx="8" fill="url(#chart2)">
+      <animate attributeName="height" values="76;120;76" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="205" y="120" width="34" height="106" rx="8" fill="url(#chart3)">
+      <animate attributeName="height" values="106;150;106" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="255" y="170" width="34" height="56" rx="8" fill="url(#chart1)">
+      <animate attributeName="height" values="56;100;56" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="305" y="134" width="34" height="92" rx="8" fill="url(#chart2)">
+      <animate attributeName="height" values="92;138;92" dur="3.0s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <path d="M96 214 C150 180, 200 150, 258 160 S360 146, 408 110" fill="none" stroke="#f5d0fe" stroke-width="4" stroke-linecap="round" filter="url(#glow)">
+    <animate attributeName="d" values="M96 214 C150 180, 200 150, 258 160 S360 146, 408 110;M96 208 C150 160, 200 130, 258 140 S360 120, 408 80;M96 214 C150 180, 200 150, 258 160 S360 146, 408 110" dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <g>
+    <text x="500" y="130" font-size="54" font-family="Arial, sans-serif" font-weight="700" fill="#ffffff">
+      Data Analyst
+    </text>
+    <text x="500" y="182" font-size="26" font-family="Arial, sans-serif" fill="#f5f3ff">
+      Business Insights • KPI Reporting • Dashboard Storytelling
+    </text>
+    <rect x="500" y="210" width="280" height="46" rx="23" fill="rgba(255,255,255,0.07)" stroke="rgba(216,180,254,0.9)"/>
+    <text x="545" y="240" font-size="20" font-family="Arial, sans-serif" fill="#ffffff">
+      Analytics Portfolio
+    </text>
+  </g>
+</svg>
